@@ -11,6 +11,17 @@ Intégration locale pour l'ancien **TYDOM 350 PC**, vérifiée avec son interfac
 
 Seuls les compteurs Wh/kWh sont utilisables comme énergie dans le tableau de bord Énergie. Le boîtier examiné expose des EUR. Si son unité est modifiée ultérieurement, recharger l'intégration pour créer les entités correspondant à la nouvelle unité ; les anciennes deviennent indisponibles.
 
+## Installation avec HACS
+
+Le dépôt peut être ajouté comme **dépôt personnalisé** ; sa présence dans le catalogue par défaut dépend de l'acceptation de la demande de référencement.
+
+1. Dans HACS, ouvrir le menu puis **Dépôts personnalisés**.
+2. Ajouter `https://github.com/youenchene/homeassistant-tydom350`, type **Intégration**.
+3. Télécharger **Delta Dore TYDOM 350 (local)** et redémarrer Home Assistant.
+4. Dans Paramètres → Appareils et services → Ajouter une intégration, rechercher **Delta Dore TYDOM 350 (local)** et renseigner l'adresse locale du boîtier.
+
+Version minimale déclarée : **Home Assistant 2026.9.3**, version utilisée pour les tests. Les icônes sont incluses dans l'intégration.
+
 ## Installation manuelle
 
 1. Copier `custom_components/tydom350` dans `/config/custom_components/tydom350` sur Home Assistant.
@@ -56,3 +67,11 @@ Les tests utilisent un serveur local simulé et des données fictives ; ils ne c
 ## Licence
 
 MIT. Projet communautaire indépendant, non affilié à Delta Dore.
+
+### Images de marque
+
+Les images de `custom_components/tydom350/brand/` proviennent de
+[Home Assistant Brands — deltadore_tydom](https://github.com/home-assistant/brands/tree/master/custom_integrations/deltadore_tydom).
+Les marques et logos restent la propriété de leurs détenteurs et servent uniquement
+à identifier le matériel compatible ; ils ne sont pas couverts par la licence MIT
+appliquée au code et n'impliquent aucune approbation du fabricant.
