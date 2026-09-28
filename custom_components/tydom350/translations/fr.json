@@ -1,0 +1,25 @@
+{
+  "title": "Delta Dore TYDOM 350 (local)",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connexion au TYDOM 350",
+        "description": "Connexion locale à l’ancien TYDOM 350 PC. Lumières : état estimé. Chauffage : Éco/Confort par zone et mode général. Consommation : unité affichée par le boîtier (EUR ou kWh). Laisser les identifiants vides si aucun n’est demandé.",
+        "data": {
+          "host": "Adresse du TYDOM",
+          "username": "Utilisateur HTTP (facultatif)",
+          "password": "Mot de passe HTTP (facultatif)",
+          "scan_interval": "Actualisation (secondes, minimum 30)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Identifiants refusés par le TYDOM.",
+      "cannot_connect": "Connexion impossible. Vérifiez l’adresse et le réseau.",
+      "invalid_gateway": "Adresse incorrecte ou réponse non reconnue comme un TYDOM 350."
+    },
+    "abort": {
+      "already_configured": "Ce TYDOM est déjà configuré."
+    }
+  }
+}

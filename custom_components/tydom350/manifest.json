@@ -1,0 +1,14 @@
+{
+  "domain": "tydom350",
+  "name": "Delta Dore TYDOM 350 (local)",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://github.com/youenchene/homeassistant-tydom350",
+  "iot_class": "local_polling",
+  "integration_type": "hub",
+  "requirements": [],
+  "codeowners": [
+    "@youenchene"
+  ],
+  "issue_tracker": "https://github.com/youenchene/homeassistant-tydom350/issues"
+}
