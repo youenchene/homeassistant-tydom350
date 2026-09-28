@@ -68,10 +68,10 @@ Les tests utilisent un serveur local simulé et des données fictives ; ils ne c
 
 MIT. Projet communautaire indépendant, non affilié à Delta Dore.
 
-### Images de marque
+### Icône
 
-Les images de `custom_components/tydom350/brand/` proviennent de
-[Home Assistant Brands — deltadore_tydom](https://github.com/home-assistant/brands/tree/master/custom_integrations/deltadore_tydom).
-Les marques et logos restent la propriété de leurs détenteurs et servent uniquement
-à identifier le matériel compatible ; ils ne sont pas couverts par la licence MIT
-appliquée au code et n'impliquent aucune approbation du fabricant.
+L'icône du TYDOM 350 a été générée avec une assistance IA à partir de la
+[photo de référence de l'ancien plugin S.A.R.A.H.](https://github.com/youenchene/tydom350/blob/master/webapp/tydom_187.png).
+Elle illustre le modèle de boîtier compatible, avec un fond transparent, aux formats 256 et 512 pixels.
+Les marques visibles restent la propriété de leurs détenteurs et servent uniquement
+à identifier le matériel compatible ; elles n'impliquent aucune approbation du fabricant.
